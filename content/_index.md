@@ -35,12 +35,18 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: '🔬 About Our Lab'
+      subtitle: 'Decoding Early Embryonic Development & Pluripotency'
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        Our laboratory is dedicated to deciphering the complex mechanisms of early human embryonic development and exploring the forefront of stem cell biology. By combining cutting-edge single-cell multi omics techniques (scRNA seq, scATAC seq) with stem cell-derived models, we aim to accurately map the trajectory of cell fate determination.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+Our core research areas include:
+*Early embryonic lineage development: In depth study of the specialization and origin of the human lower germ layer (Hypo), primordial germ cells (PGCs), and other lineages.
+** * In vitro induction system construction: * * Develop efficient and high-purity cell induction systems, such as our 8CLS targeted induction system based on e4CL medium.
+*Omnipotranspiration and early hematopoiesis: Exploring the characteristics of 8-cell like cells (8CLC) and elucidating the molecular mechanism of early yolk sac hematopoiesis.
+*Epigenetic regulatory mechanism: Revealing the regulatory network of core transcription factors and chromatin accessibility during lineage differentiation.
+
+We hope to provide new theoretical foundations and technological support for regenerative medicine and developmental biology by revealing the mysteries of early development.
 
         Please reach out to collaborate 😃
     design:
@@ -56,6 +62,26 @@ sections:
     design:
       view: article-grid
       columns: 2
+  - block: collection
+    id: Lab-members
+    content:
+      title: '👥 Lab Members'
+      subtitle: ''
+      text: ''
+      # 这里控制只显示除了 PI 以外的其他成员
+      filters:
+        folders:
+          - authors
+        user_groups:
+          - Master Students
+          - PhD Students
+          - Postdoctoral Fellows
+          - Research Assistants
+    design:
+      # view: grid 是实现“照片并排、满了换行、文字在下方”的核心密码
+      view: grid
+      # 这里的 4 代表在电脑大屏幕上，一行最多并排显示 4 个成员头像
+      columns: '4'
   - block: collection
     content:
       title: Recent Publications
