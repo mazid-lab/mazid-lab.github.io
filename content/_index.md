@@ -38,14 +38,13 @@ sections:
       title: '🔬 About Our Lab'
       subtitle: 'Decoding Early Embryonic Development & Pluripotency'
       text: |-
-        Our laboratory is dedicated to deciphering the complex mechanisms of early human embryonic development and exploring the forefront of stem cell biology. By combining cutting-edge single-cell multi omics techniques (scRNA seq, scATAC seq) with stem cell-derived models, we aim to accurately map the trajectory of cell fate determination.
+Our laboratory is dedicated to deciphering the complex mechanisms of early human embryonic development and exploring the forefront of stem cell biology. By combining cutting-edge single-cell multi-omics techniques (scRNA-seq, scATAC-seq) with stem cell-derived models, we aim to accurately map the trajectory of cell fate determination.
 
-Our core research areas include:
-*Early embryonic lineage development: In depth study of the specialization and origin of the human lower germ layer (Hypo), primordial germ cells (PGCs), and other lineages.
-** * In vitro induction system construction: * * Develop efficient and high-purity cell induction systems, such as our 8CLS targeted induction system based on e4CL medium.
-*Omnipotranspiration and early hematopoiesis: Exploring the characteristics of 8-cell like cells (8CLC) and elucidating the molecular mechanism of early yolk sac hematopoiesis.
-*Epigenetic regulatory mechanism: Revealing the regulatory network of core transcription factors and chromatin accessibility during lineage differentiation.
-
+        Our core research areas include:
+        * **Early embryonic lineage development:** In-depth study of the specialization and origin of the human lower germ layer (Hypo), primordial germ cells (PGCs), and other lineages.
+        * **In vitro induction system construction:** Develop efficient and high-purity cell induction systems, such as our 8CLS targeted induction system based on e4CL medium.
+        * **Pluripotency and early hematopoiesis:** Exploring the characteristics of 8-cell like cells (8CLC) and elucidating the molecular mechanism of early yolk sac hematopoiesis.
+        * **Epigenetic regulatory mechanisms:** Revealing the regulatory network of core transcription factors and chromatin accessibility during lineage differentiation.
 We hope to provide new theoretical foundations and technological support for regenerative medicine and developmental biology by revealing the mysteries of early development.
 
         Please reach out to collaborate 😃
