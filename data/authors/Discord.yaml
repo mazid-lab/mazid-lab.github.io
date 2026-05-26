@@ -9,6 +9,8 @@ name:
 status:
   icon: "🎓"
 role: Master's Student
+user_groups:
+  - Master Students
 bio: Master's student in Biochemistry and Molecular Biology, focusing on early embryonic development.
 
 affiliations:
